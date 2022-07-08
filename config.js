@@ -37,9 +37,9 @@ global.error = `*Cᴀɴ\'ᴛ Fᴇᴛᴄʜɪɴɢ Dᴀᴛᴀ*`
 global.profil = fs.readFileSync("./src/botstyle.png")
 global.zippy = (await import('./lib/zippy.cjs')).zippy
 global.tiny = (await import('./lib/tiny.cjs')).default
-global.gc = "https://chat.whatsapp.com/KihEAYjKr04LI4uUrbiiip"
-global.gh = "https://github.com/botstylee"
-global.yt = "https://youtube.com/channel/UCrNO1yUYW0i3xsJp4NGBh4Q"
+global.gc = "https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx"
+global.gh = "https://github.com/ekadanuarta"
+global.yt = "https://youtube.com/"
 function ucapan() {
 	const time = moment.tz('Asia/Jakarta').format('HH')
 	var res
@@ -91,7 +91,7 @@ global.owner = [
 	//  ['6281234288573'],
 	//['12546153210'],
 	//['62895368900456'],
-	['62895368900456', 'Benniismael', true]
+	['6288221400832', 'EkaDanuArta', true]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -104,14 +104,14 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
 	// 'https://website': 'apikey'
-	'https://ghostui-api.herokuapp.com/': 'OC2eTK'
+	'https://ghostui-api.herokuapp.com/': '89y2tS'
 }
 // Sticker WM
-global.packname = 'ig : Beni_230\'Benniismael'
-global.author = 'BENNIISMAEL & GHOST'
-global.nomorown = '62895368900456'
+global.packname = 'ig : itsme_danuu\'EkaDanuArta'
+global.author = 'ItsmeDanuu'
+global.nomorown = '6288221400832'
 global.multiplier = 69 // The higher, The harder levelup
-global.titlebot = `⫹⫺ RPG BOT Whatsapp | By ${author}`
+global.titlebot = `⫹⫺ PM BOT Whatsapp | By ${author}`
 global.rpg = {
 	emoticon(string) {
 		string = string.toLowerCase()
